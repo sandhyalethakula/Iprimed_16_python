@@ -1,0 +1,11 @@
+msg='Hello world, Python people!'
+print(msg[6:11].title())
+print(msg[13:26])
+print(msg[13:19],msg[6:11])
+print(msg[0:5],msg[20:26])
+print(msg[0:5],msg[20:26],'who belong to',msg[13:19],msg[6:11])
+print(msg[::])
+print(msg[-2::-1])
+print(msg[-23::-1])
+print(msg[-2:19:-1])
+print(msg[-9:5:-1])
